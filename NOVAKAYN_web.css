@@ -291,3 +291,91 @@ footer {
     height: auto;
   }
 }
+
+#site-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #8e2de2, #4a00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  animation: fadeIn 1.2s ease-in-out;
+
+  background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+  mask-image: linear-gradient(90deg, #8e2de2, #4a00e0);
+  -webkit-mask-image: linear-gradient(90deg, #8e2de2, #4a00e0);
+}
+#slogan {
+  position: relative;
+  display: inline-block;
+  color: #b084f7; 
+}
+
+#slogan::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #a855f7, #8e2de2, #a855f7);
+  background-size: 200% 100%;
+  animation: lineMove 2s infinite linear;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #8e2de2;
+}
+
+@keyframes lineMove {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+#site-title img {
+  filter: drop-shadow(0 0 8px #8e2de2);
+  border: 2px solid rgba(142, 45, 226, 0.7);
+  border-radius: 8px;
+  padding: 4px;
+  background: rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, filter 0.3s ease, border-color 0.3s ease;
+  animation: logoFloat 6s infinite ease-in-out;
+}
+
+#site-title img:hover {
+  transform: scale(1.1) rotate(3deg);
+  filter: drop-shadow(0 0 15px #a855f7);
+  border-color: #a855f7;
+}
+
+@keyframes logoFloat {
+  0% { transform: scale(1) rotate(0deg); }
+  50% { transform: scale(1.05) rotate(1deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
+
+#site-title img:active {
+  animation: rippleEffect 0.4s ease-out;
+}
+@keyframes rippleEffect {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(168, 85, 247, 0.6); }
+  70% { transform: scale(1.05); box-shadow: 0 0 0 15px rgba(168, 85, 247, 0); }
+  100% { transform: scale(1); box-shadow: none; }
+}
+
+header {
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#logo-slogan {
+  display: block;
+  font-size: 0.85rem;
+  color: #ccc;
+  text-align: center;
+  margin-top: 5px;
+}
