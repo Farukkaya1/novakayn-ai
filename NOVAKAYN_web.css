@@ -251,3 +251,43 @@ footer {
   color: #aaa;
   margin-top: 2rem;
 }
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  #site-title {
+    font-size: 1.5rem;
+  }
+
+  .language-selector {
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+
+  #rotatingContentContainer {
+    padding: 1rem;
+  }
+
+  .newsSection, .legalSection {
+    padding: 1rem;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
