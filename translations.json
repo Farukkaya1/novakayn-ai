@@ -1,0 +1,62 @@
+{
+  "tr": {
+    "menu_about": "Hakkımızda",
+    "menu_features": "Özellikler",
+    "menu_product": "Ürün Detayları",
+    "menu_faq": "SSS",
+    "menu_contact": "İletişim",
+    "menu_chat": "Chat'e Git",
+    "about_title": "Hakkımızda",
+    "about_text": "NOVAKAYN, yapay zekâ destekli içerik analizinde devrim yaratan bir platformdur. PDF, video ve metin içeriklerinden özetler, kavramsal haritalar ve test soruları oluşturarak bireylerin öğrenme deneyimini zenginleştirir.",
+    "features_title": "Özellikler",
+    "features_text": "- Gelişmiş içerik analizi\n- Kavram haritası oluşturma\n- Kişiselleştirilmiş özetler\n- Sınav için özgün sorular üretme\n- Çoklu içerik türü desteği",
+    "product_title": "Ürün Detayları",
+    "product_text": "Yapay zekâ destekli NOVAKAYN sistemi, öğrenme materyallerinizi analiz ederek anlamayı kolaylaştırır. Eğitimden Ar-Ge’ye kadar geniş yelpazede kullanılabilir.",
+    "faq_title": "SSS",
+    "faq_text_1": "S: NOVAKAYN kimler için uygundur?\nC: Öğrenciler, akademisyenler, eğitmenler ve araştırmacılar için idealdir.",
+    "faq_text_2": "S: Hangi dosya türlerini destekliyor?\nC: PDF, DOCX, MP4, TXT gibi popüler formatları destekler.",
+    "contact_title": "İletişim",
+    "contact_text": "Mail: official.novakayn@gmail.com\nX (Twitter): @Novakayn.ai\nLinkedIn: NOVAKAYN AI\nInstagram: @novakayn.ai",
+    "legal_title": "Ek Bilgilendirme",
+    "legal_notice": "Yasal Bilgilendirme",
+    "privacy_policy": "Gizlilik Politikası",
+    "terms_of_use": "Kullanım Şartları",
+    "report_abuse": "Kötüye Kullanım Bildir",
+    "footer_text": "© 2025 NOVAKAYN | Tüm hakları saklıdır.",
+    "news": [
+      "🚀 NOVAKAYN platformu beta test sürecine başladı!...",
+      "📢 Yeni özellik: Kavram haritası oluşturucu aktif!...",
+      "🧠 YZ destekli özetleme motoru yayınlandı..."
+    ]
+  },
+  "en": {
+    "menu_about": "About Us",
+    "menu_features": "Features",
+    "menu_product": "Product Details",
+    "menu_faq": "FAQ",
+    "menu_contact": "Contact",
+    "menu_chat": "Go to Chat",
+    "about_title": "About Us",
+    "about_text": "NOVAKAYN is a revolutionary platform in AI-powered content analysis. It generates summaries, concept maps, and test questions from PDFs, videos, and text to enhance learning experiences.",
+    "features_title": "Features",
+    "features_text": "- Advanced content analysis\n- Concept map generation\n- Personalized summaries\n- Unique exam questions\n- Multi-format support",
+    "product_title": "Product Details",
+    "product_text": "The AI-powered NOVAKAYN system analyzes learning materials to improve understanding. It can be used in a wide range from education to R&D.",
+    "faq_title": "FAQ",
+    "faq_text_1": "Q: Who is NOVAKAYN suitable for?\nA: Ideal for students, academics, educators, and researchers.",
+    "faq_text_2": "Q: What file formats are supported?\nA: Supports popular formats such as PDF, DOCX, MP4, TXT.",
+    "contact_title": "Contact",
+    "contact_text": "Email: official.novakayn@gmail.com\nX (Twitter): Novakayn.ai\nLinkedIn: NOVAKAYN AI\nInstagram: @novakayn.ai",
+    "legal_title": "Additional Information",
+    "legal_notice": "Legal Notice",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_use": "Terms of Use",
+    "report_abuse": "Report Abuse",
+    "footer_text": "© 2025 NOVAKAYN | All rights reserved.",
+    "news": [
+      "🚀 NOVAKAYN platform has entered the beta testing phase!...",
+      "📢 New feature: Concept map generator is now active!...",
+      "🧠 AI-powered summarization engine released..."
+    ]
+  }
+}
