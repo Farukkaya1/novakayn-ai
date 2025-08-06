@@ -300,38 +300,24 @@ footer {
   -webkit-text-fill-color: transparent;
   position: relative;
   animation: fadeIn 1.2s ease-in-out;
-
-  background-clip: text;
-  -moz-background-clip: text;
-  color: transparent;
-  mask-image: linear-gradient(90deg, #8e2de2, #4a00e0);
-  -webkit-mask-image: linear-gradient(90deg, #8e2de2, #4a00e0);
-}
-#slogan {
-  position: relative;
-  display: inline-block;
-  color: #b084f7; 
 }
 
-#slogan::after {
+#site-title::after {
   content: '';
   position: absolute;
-  bottom: -6px;
+  bottom: -5px;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 3px;
-  background: linear-gradient(90deg, #a855f7, #8e2de2, #a855f7);
-  background-size: 200% 100%;
-  animation: lineMove 2s infinite linear;
-  border-radius: 3px;
-  box-shadow: 0 0 10px #8e2de2;
+  background: linear-gradient(90deg, #8e2de2, #4a00e0);
+  border-radius: 2px;
+  animation: underlineMove 4s infinite linear;
 }
 
-@keyframes lineMove {
-  0% { background-position: 200% 0; }
-  100% { background-position: -200% 0; }
+@keyframes underlineMove {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
 }
-
 #site-title img {
   filter: drop-shadow(0 0 8px #8e2de2);
   border: 2px solid rgba(142, 45, 226, 0.7);
